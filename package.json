@@ -1,0 +1,26 @@
+{
+  "name": "eslint-plugin-sung-hunt-down-your-bad-code",
+  "version": "0.0.9",
+  "description": "beta",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "Sung",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "1.1.0"
+  },
+  "devDependencies": {
+    "eslint": "3.9.1",
+    "mocha": "3.5.3"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "ISC"
+}
